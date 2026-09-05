@@ -587,6 +587,16 @@ function Footer() {
               <li className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> Nairobi, Kenya</li>
               <li className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> hello@fanisidigital.co.ke</li>
               <li className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /> +254 700 000 000</li>
+              <li>
+                <a
+                  href={waLink(WA_DEFAULT_MESSAGE)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-primary-foreground"
+                >
+                  <WhatsAppIcon className="h-4 w-4 shrink-0" /> Chat on WhatsApp
+                </a>
+              </li>
             </ul>
           </div>
           <div>

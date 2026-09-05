@@ -183,16 +183,19 @@ function Hero() {
             style={{ "--reveal-delay": "360ms" } as CSSProperties}
           >
             <a
-              href="#contact"
-              className="rounded-lg bg-primary px-7 py-3.5 text-center text-base font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition-transform hover:-translate-y-0.5"
+              href={waLink(WA_DEFAULT_MESSAGE)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2.5 rounded-lg bg-whatsapp px-7 py-3.5 text-base font-semibold text-whatsapp-foreground shadow-lg shadow-whatsapp/30 transition-transform hover:-translate-y-0.5"
             >
-              Get a free consultation
+              <WhatsAppIcon className="h-5 w-5" />
+              Chat on WhatsApp
             </a>
             <a
-              href="#services"
+              href="#contact"
               className="rounded-lg border border-border bg-card px-7 py-3.5 text-center text-base font-semibold text-foreground transition-colors hover:bg-secondary"
             >
-              Explore our services
+              Get a free consultation
             </a>
           </div>
         </div>

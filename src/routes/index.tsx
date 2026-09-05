@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent, type CSSProperties } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { CheckCircle2, MapPin, Mail, Phone, Menu, X, Linkedin, Twitter, Instagram } from "lucide-react";

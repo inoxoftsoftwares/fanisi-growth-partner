@@ -32,6 +32,8 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
   --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
 }
@@ -70,6 +72,10 @@
   --border: oklch(0.9 0.015 200);
   --input: oklch(0.9 0.015 200);
   --ring: oklch(0.38 0.07 195);
+
+  /* WhatsApp brand green */
+  --whatsapp: #25d366;
+  --whatsapp-foreground: oklch(0.99 0 0);
 }
 
 @layer base {

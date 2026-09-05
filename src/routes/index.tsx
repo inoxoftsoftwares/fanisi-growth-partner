@@ -621,9 +621,11 @@ function Index() {
         <Services />
         <WhyFanisi />
         <ContactSection />
+        <Testimonials />
         <Newsletter />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
